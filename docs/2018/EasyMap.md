@@ -4,14 +4,17 @@
 
 ### Về Địa điểm 
 - Bản đồ (Map) gồm nhiều   Places, List, Area
-    - Place: là một điểm trên bản đồ. 
-        - Cùng một tọa độ GPS vẫn cho phép nhiều Place, Place có tọa độ 3D (x,y,z) và bán kính giới hạn. 
-    - Tour: là liên kết nhiều Places có cùng chủ đề (Tags). 
-        - Tour là List có thứ tự và có Start Place, End Place
-        - Round là tour kết nối thành vòng kín 
-    - Area: là tập hợp nhiều Place trong một khu vực giới hạn 
+    - Place: Là điểm trên bản đồ. 
+        - Cùng một tọa độ GPS vẫn cho phép nhiều Place, Place có tọa độ 3D (x,y,z) và bán kính giới hạn.
+        - Một điểm có thể nằm trong một vùng hay nhiều vùng. Ví dụ: Đền Preah Vihear là một điểm nằm giữa biên giới Thái Lan và Campuchia.  
+    - Tour: Là tuyến kết nối nhiều Places có cùng chủ đề (Tags). 
+        - Tour là List có thứ tự và có Start Place, End Place.
+        - Round là tour kết nối thành vòng kín. 
+    - Area: Là vùng tập hợp nhiều Place hay Area. 
         - Area chứa nhiều List bên trong
-
+        - Area có thể thuộc một area lớn hơn. Ví dụ: Thành phố Biên Hòa thuộc tỉnh Đồng Nai, tỉnh Đồng Nai thuộc Miền Đông Nam Bộ.
+        - Area có thể thuộc nhiều area lớn hơn. Ví dụ 1: Hồ Dầu Tiếng có các điểm như Đảo Ó, Đồng Trường, Chùa Thái Sơn, Suối Trúc. Hồ Dầu tiếng thuộc hai area là tỉnh Bình Dương và tỉnh Tây Ninh. Ví dụ 2: Vùng Ngũ Hồ có 5 vùng hồ nhỏ là Huron, Ontario, Michigan, Erie và Superior. Các vùng này nằm trên các area là bang Ontario, Minnesota, Wisconsin, Michigan, Illinois, Indiana, Ohio, Pennsylvania và New York của hai nước nước là Mỹ và Canada.  
+        
 ### Về Nội Dung Topic:
 - Topic : nội dung dùng để mô tả Place, List và Area, gồm nhiều hashtags, tags, article, 
     - Hashtags: keyword trong nội dung mô tả
